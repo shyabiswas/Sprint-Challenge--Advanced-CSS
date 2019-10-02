@@ -33,14 +33,29 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the difference between an adaptive website and a fully responsive website?
+Adaptive websites are designed for two or more different screen widths so that content can be viewed in these devices
+Media queries are used to define layout widths and code is written for those particular screen widths. The deployment is quick for those defined widths.
+Fully responsive websites can be built for all different screen sizes. The code is written for all different screen widths and the whole content changes according to the size of screen. The time taken to build this kind of site is more.
+
 
 2. Describe what it means to be mobile first vs desktop first.
 
+In case of mobile first site, the website is designed for viewing in mobile devices first and then can be stretched to desktop version. The term min-width is used in case of mobile first webpages and the layout changes as the screen width is changed to desktop version
+For desktop first, max width is used and the website is designed for desktop.
+
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+
+62.5 * .16 = 10 which means 1rem would be equal to 10px.
 
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing is introducing more functionality in CSS.  The program used is called LESS, it makes CSS robust work more efficiently with more functionality added to it. Preprocessing also enables use of javascript like functions when applying styles in CSS.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+Application of variables, parametric mixins is the part I liked as you can shorten the code and make it simple.
+The worst part was to understand the concept of nesting and then applying it in the document.
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
